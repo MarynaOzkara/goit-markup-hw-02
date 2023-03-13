@@ -1,0 +1,65 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+} 
+.list{
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+}
+.logo{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1,16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2E2F42;
+}
+.menu-item{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.menu-link:hover, .menu-link:focus, 
+.contact-item:hover, .contact-item:focus{
+    color: #4D5AE5;
+}
+.contact-item{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1,5;
+    letter-spacing: 0.02em;
+}
+.hero{
+    text-align: center;
+}
+.main-title{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1,07;
+    letter-spacing: 0.02em;
+    /*
+    color: #FFFFFF; */
+}
+.modal-btn{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,5;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: #4D5AE5;
+}
+.modal-btn:hover, .modal-btn:focus{
+    background: #F4F4FD;
+    color: #4D5AE5;
+    cursor: pointer;
+}
+.modal-btn:v

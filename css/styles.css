@@ -66,6 +66,8 @@ body{
     color: var(--primary-white); 
 }
 .hero-btn{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -139,9 +141,48 @@ color: var(--main-title-color);
     letter-spacing: 0.02em;
     color: var(--main-text-color);
 }
-/* -----------GALERY-MENU--------*/
-
-/* -----------GALERY--------*/
+/* -----------PORTFOLIO-FILTER--------*/
+.portfolio {
+}
+.portfolio-filter {
+}
+.filter-item {
+}
+.filter-btn {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: var(--primary-brend);
+    background: var(--light-grey);
+}
+.filter-btn:hover, 
+.filter-btn:focus{
+    color: var(--primary-white);
+    background: var(--accent-color);
+    cursor: pointer;
+}
+/* -----------PORTFOLIO--------*/
+.portfolio-list {
+}
+.portfolio-item {
+}
+.portfolio-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--main-title-color);
+}
+.portfolio-descriptions {
+    font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--main-text-color);
+}
 
 /* -----------FOOTER--------*/
 .footer {
